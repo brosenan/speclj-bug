@@ -1,0 +1,1 @@
+(ns speclj-bug.core)
