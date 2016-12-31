@@ -1,6 +1,6 @@
 # speclj-bug
-lein spec and lein spec -a do not agree on the namespace in which tests run.
-lein spec -a runs tests in the namespace perscribed in the spec file, while lein spec runs them from the user namespace (like a REPL).
+`lein spec` and lein `spec -a` do not agree on the namespace in which tests run.
+`lein spec -a` runs tests in the namespace perscribed in the spec file, while `lein spec` runs them from the user namespace (like a REPL).
 
 To reproduce this problem do this:
 ```bash
